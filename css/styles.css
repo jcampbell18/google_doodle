@@ -37,27 +37,27 @@ div#play-audio input#play-btn {
 }
 
 /* Google */
-svg#google.st0 {
+svg#google .st0 {
   fill: #4285F4;
 }
 
-svg#google.st1 {
+svg#google .st1 {
   font-family: 'Rockwell-ExtraBold';
 }
 
-svg#google.st2 {
+svg#google .st2 {
   font-size: 200px;
 }
 
-svg#google.st3 {
+svg#google .st3 {
   fill: #EA4335;
 }
 
-svg#google.st4 {
+svg#google .st4 {
   fill: #FBBC05;
 }
 
-svg#google.st5 {
+svg#google .st5 {
   fill: #34A853;
 }
 
