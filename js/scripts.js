@@ -31,7 +31,7 @@ $('#play-btn').click( function() {
         // play music
         $('#play-music').get(0).play();
         // change play button to pause
-        $('#play-btn').attr('src', '../img/pause_button.jpg');
+        $('#play-btn').attr('src', '../img/pause_button.png');
         // add background of album
         $('#swta').attr('src', '../img/SurfingWithTheAlienAlbumCover.jpg');
         // remove guitar. music lines and notes
@@ -47,7 +47,7 @@ $('#play-btn').click( function() {
     } else {
         isPlaying = false;
         $('#play-music').get(0).pause();
-        $('#play-btn').attr('src', '../img/play_button.jpg');
+        $('#play-btn').attr('src', '../img/play_button.png');
         $('#swta').attr('src', '');
         $('svg#music-lines').removeClass('opacity-zero');
         $('svg#guitar').removeClass('opacity-zero');
