@@ -280,7 +280,7 @@ img#satch.skew-satch {
 }
 
 #stage:hover g#string-1 {
-  top: +=3px;
+  /*top: =+3px;*/
 }
 
 #stage:hover svg#google {
