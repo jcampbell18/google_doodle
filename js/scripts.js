@@ -33,10 +33,18 @@ $('#play-btn').click( function() {
         $('#play-music').get(0).play();
 
         // change play button to pause
-        $('#play-btn').attr('src', 'img/pause_button.png');
+        $('#play-btn').attr({
+            src: 'img/pause_button.png',
+            alt: 'Pause',
+            title: 'Pause'
+        });
 
         // add background of album
-        $('#swta').attr('src', 'img/SurfingWithTheAlienAlbumCover.jpg');
+        $('#swta').attr({
+            src: 'img/SurfingWithTheAlienAlbumCover.jpg',
+            alt: 'Surfing with the Alien Album Cover',
+            title: 'Surfing with the Alien Album Cover'
+        });
 
         // hide guitar, music lines, music notes and anything that is activated when hover is off
         $('svg#music-lines').addClass('opacity-zero');
@@ -51,8 +59,15 @@ $('#play-btn').click( function() {
     } else {
         isPlaying = false;
         $('#play-music').get(0).pause();
-        $('#play-btn').attr('src', 'img/play_button.png');
-        $('#swta').attr('src', '');
+        $('#play-btn').attr({
+            src: 'img/play_button.png',
+            alt: 'Play',
+            title: 'Play'
+        });
+        $('#swta').attr({
+            src: '',
+            alt: ''
+        });
         $('svg#music-lines').removeClass('opacity-zero');
         $('svg#guitar').removeClass('opacity-zero');
         $('svg#music-note-two').removeClass('opacity-zero');
