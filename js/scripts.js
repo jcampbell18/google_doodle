@@ -28,13 +28,17 @@ var isPlaying = false;
 $('#play-btn').click( function() { 
     if (!isPlaying) {
         isPlaying = true;
+
         // play music
         $('#play-music').get(0).play();
+
         // change play button to pause
         $('#play-btn').attr('src', '../img/pause_button.png');
+
         // add background of album
         $('#swta').attr('src', '../img/SurfingWithTheAlienAlbumCover.jpg');
-        // remove guitar. music lines and notes
+
+        // hide guitar, music lines, music notes and anything that is activated when hover is off
         $('svg#music-lines').addClass('opacity-zero');
         $('svg#guitar').addClass('opacity-zero');
         $('svg#music-note-two').addClass('opacity-zero');
