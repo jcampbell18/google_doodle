@@ -24,7 +24,7 @@ $('#stage').hover( function() {
 });
 
 //Background Color Randomization
-var colorArray = ['#CCCCCC', '#FFFFFF', '#feb5b5'];
+var colorArray = ['#CCCCCC', '#FFFFFF', '#e5cfcf'];
 var randomColor = Math.floor(Math.random() * (colorArray.length));
 $('div#stage').css('background', colorArray[randomColor]);
 console.log(colorArray[randomColor]);
