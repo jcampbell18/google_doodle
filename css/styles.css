@@ -1,11 +1,3 @@
-/* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
- */
-/* Diagnostic Styling */
-/* #stage {
-  outline: 1px dotted black;
-} */
-
-
 /***** STYLING *****/
 /* Stage */
 #stage {
@@ -84,11 +76,11 @@ svg#guitar {
   width: 100%;
 }
 
-svg#guitar .cls-1 {
+.base {
   fill:red;
 }
 
-svg#guitar .cls-1,.cls-2,.cls-3,.cls-5 {
+svg#guitar .base,.cls-2,.cls-3,.cls-5 {
   stroke: #000;
   stroke-miterlimit: 10;
 }

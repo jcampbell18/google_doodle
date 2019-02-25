@@ -23,6 +23,12 @@ $('#stage').hover( function() {
   
 });
 
+//Background Color Randomization
+var colorArray = ['#CCCCCC', '#FFFFFF', '#feb5b5'];
+var randomColor = Math.floor(Math.random() * (colorArray.length));
+$('body#randColor').css('background', colorArray[randomColor]);
+console.log(colorArray[randomColor]);
+
 // Audio play button
 var isPlaying = false;
 $('#play-btn').click( function() { 
